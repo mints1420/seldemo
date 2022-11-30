@@ -52,6 +52,8 @@ public class UltaPDP extends AbstractClass {
 	    	InBag.click(); 
 	     }
 		
+		System.out.println("Testing gitbranch changes");
+		
 		UltaMiniCart MiniCart=new 	UltaMiniCart(driver);
 		return MiniCart;
 	}
