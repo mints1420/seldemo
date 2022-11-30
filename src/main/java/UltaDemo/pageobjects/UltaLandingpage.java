@@ -67,9 +67,14 @@ By SigninPageLoad=By.xpath("//label[@for='username']");
 		
 		driver.findElement(SignIn).click();
 		
+		System.out.println("GitDemo1");
+		System.out.println("GitDemo2");
+		System.out.println("GitDemo3");
+		
        UltaLogin login=new UltaLogin(driver);
         return login;
 		
+        
 		
 		
 		
