@@ -73,6 +73,12 @@ public class UltaLogin extends AbstractClass {
 		
 		a.moveToElement(driver.findElement(Submit)).build().perform();
 		Submitformclk.click();
+		
+		
+		System.out.println("*******************");
+		System.out.println("GitDemo10");
+		System.out.println("GitDemo11");
+		System.out.println("GitDemo12");
 		invisibilityOfElementLocated(Loader);
 		UltaHamburgerMenu HamburgerMenu=new UltaHamburgerMenu(driver);
 		return HamburgerMenu;

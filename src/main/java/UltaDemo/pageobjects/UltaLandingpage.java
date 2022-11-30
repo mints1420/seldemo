@@ -71,6 +71,14 @@ By SigninPageLoad=By.xpath("//label[@for='username']");
 		System.out.println("GitDemo2");
 		System.out.println("GitDemo3");
 		
+		
+		System.out.println("*******************");
+		System.out.println("GitDemo4");
+		System.out.println("GitDemo5");
+		System.out.println("GitDemo6");
+		
+		
+		
        UltaLogin login=new UltaLogin(driver);
         return login;
 		
